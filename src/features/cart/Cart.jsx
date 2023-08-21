@@ -4,6 +4,7 @@ import Button from "../../ui/Button";
 import CartItem from "./CartItem";
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart, getCart } from "./cartSlice";
+import { fetchAddress } from "../user/userSlice";
 
 function Cart() {
   const dispatch = useDispatch();
